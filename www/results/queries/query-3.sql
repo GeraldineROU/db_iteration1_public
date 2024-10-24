@@ -1,0 +1,4 @@
+SELECT *
+FROM orders
+WHERE date=CURRENT_DATE
+ORDER BY number DESC
